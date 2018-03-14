@@ -20,7 +20,7 @@ class AdminAjaxAPI extends AjaxController {
      * 403 - Not an administrator
      */
     function addDepartment() {
-        global $ost, $thisstaff;
+        global $ost, $thisstaff, $aux1;
 
         if (!$thisstaff)
             Http::response(403, 'Agent login required');
