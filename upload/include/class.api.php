@@ -16,7 +16,7 @@
 class API {
 
     var $id;
-
+    var $apixxx;
     var $ht;
 
     function __construct($id) {
